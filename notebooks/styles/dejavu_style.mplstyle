@@ -1,0 +1,25 @@
+figure.figsize : 8, 5
+
+font.size: 24
+xtick.labelsize : 22
+ytick.labelsize : 22
+legend.fontsize : 16
+axes.labelsize : 24
+axes.labelweight : 400
+axes.titleweight : 400
+axes.titlesize : 20
+axes.formatter.use_mathtext : True
+
+font.family : sans-serif
+font.sans-serif : DejaVu Sans
+font.cursive : DejaVu Sans
+font.weight : normal
+xtick.direction : out
+ytick.direction : out
+
+mathtext.fontset : custom
+mathtext.it : sans:italic
+mathtext.bf : sans:bold
+mathtext.sf : sans
+mathtext.default : it
+mathtext.rm : sans
