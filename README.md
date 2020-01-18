@@ -62,6 +62,15 @@ OOMMF using OOMMFPy, plot slices of the sample, compute the average out of
 plane magnetisation component across the thickness of the sample, save this
 data, plot this data.
 
+# Experimental data
+
+To reproduce Figures 3, 4 and 5 from the paper, which were obtained from the
+experimental data, notebooks are provided in corresponding subfolders in the
+[experimental](experimental) directory. These subfolders contain data from both
+Holography and STXM images. The notebooks show how the experimental data is
+processed and compared with the results of the simulations. Data files obtained
+from simulations are provided as text files and can be reproduced from the
+OOMMF simulations (see above).
 
 # Cite
 
