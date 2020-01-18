@@ -28,11 +28,11 @@ into `.vtk` using the `OOMMFPy` library.
 
 ## Simulations
 
-Simulation scripts are located in `sims/oommf/`. Each of the subfolders in this
-directory contains an OOMMF `mif` simulation script, and a bash script to run
-the simulations used in the paper. These simulation scripts are parametrised so
-they can be customised by tuning the magnetic parameters and the protocols
-(such as the range of fields in the field sweep simulations).
+Simulation scripts are located in [sims/oommf/](sims/oommf). Each of the
+subfolders in this directory contains an OOMMF `mif` simulation script, and a
+bash script to run the simulations used in the paper. These simulation scripts
+are parametrised so they can be customised by tuning the magnetic parameters
+and the protocols (such as the range of fields in the field sweep simulations).
 
 ### Simulation details
 
