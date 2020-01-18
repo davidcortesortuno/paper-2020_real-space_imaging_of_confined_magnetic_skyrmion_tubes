@@ -29,6 +29,14 @@ RUN pip3 install ipywidgets nbval numpy scipy matplotlib==2.2.2 notebook psutil 
 # Headless Matplotlib:
 ENV MPLBACKEND=Agg
 
+# OOMMFPY
+WORKDIR /io
+RUN git clone https://github.com/davidcortesortuno/oommfpy
+WORKDIR /io/oommfpy
+RUN git checkout tags/v0.1
+RUN pip3 install .
+
+
 # OOMMF BUILD -----------------------------------------------------------------
 # RUN apt install -y git tk-dev tcl-dev wget
 # 
