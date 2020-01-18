@@ -45,23 +45,24 @@ they can be customised by tuning the magnetic parameters and the protocols
 
 ## Notebooks
 
-Notebooks with the analysis of the data are in the `notebooks/` folder. These
-notebooks rely heavily on the
+Notebooks with the analysis of the data are in the [notebooks](notebooks)
+folder. These notebooks rely heavily on the
 [OOMMFPy](https://github.com/davidcortesortuno/oommfpy), Jupyter, Matplotlib,
 Scipy and Numpy libraries. 
 
 The best documented and self-explained notebook is the
-![](notebooks/sk_tubes_field_sweep.ipynb) Jupyter file where simulations from
-three tubes and a field sweep process are analysed. The notebooks shows the
-calculation of average magnetisation through the thickness, isocontours of the
-skyrmion tubes, distance between skyrmion and the sample edges, distance
-between the skyrmion-skyrmion, topological charge density and profiles of
-slices of the skyrmion tube. Notice that the coordinate system from the data
-used in this notebook is rotated, so `y->z`, `z->y` and `x->-x`.
+[sk_tubes_field_sweep.ipynb](notebooks/sk_tubes_field_sweep.ipynb) Jupyter file
+where simulations from three tubes and a field sweep process are analysed. The
+notebooks show the calculation of averaging the magnetisation through the
+thickness, isocontours of the skyrmion tubes, distance between skyrmions and
+the sample edges, distance between skyrmion-skyrmion, topological charge
+density and profiles of slices of the skyrmion tube. Notice that the coordinate
+system from the data used in this notebook is rotated, so `y->z`, `z->y` and
+`x->-x`.
 
 The rest of the notebooks follow this procedure: load the `omf` files from
-OOMMF using OOMMFPy, plot slices of the sample, compute the average out of
-plane magnetisation component across the thickness of the sample, save this
+OOMMF using OOMMFPy, plot slices of the sample, compute the average of the out
+of plane magnetisation component across the thickness of the sample, save this
 data, plot this data.
 
 ## Experimental data
