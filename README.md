@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/davidcortesortuno/paper-2019_resonant_xray_imaging_confined_magnetic_skyrmion_tubes/master)
+
 # Data set for: Resonant X-Ray Imaging of Confined Magnetic Skyrmion Tubes
 
 ![](figures/sk_tubes_vorticity_im.png)
@@ -62,7 +64,7 @@ OOMMF using OOMMFPy, plot slices of the sample, compute the average out of
 plane magnetisation component across the thickness of the sample, save this
 data, plot this data.
 
-# Experimental data
+## Experimental data
 
 To reproduce Figures 3, 4 and 5 from the paper, which were obtained from the
 experimental data, notebooks are provided in corresponding subfolders in the
