@@ -4,14 +4,21 @@
 
 ![](figures/sk_tubes_vorticity_im.png)
 
-This repository contains the scripts and notebooks to reproduce the simulations
-and numerical data shown in **Resonant X-Ray Imaging of Confined Magnetic
-Skyrmion Tubes** by *M. T. Birch, D. Cortés-Ortuño,  L. A. Turnbull, M. N.
-Wilson, F. Groß, N.  Träger, A. Laurenson, N. Bukin, S. H. Moody, M. Weigand,
-G. Schütz, H. Popescu, R. Fan, P. Steadman, J. A. T. Verezhak, G. Balakrishnan,
-J. C. Loudon, A. C.  Twitchett-Harrison, O. Hovorka, H. Fangohr, F. Ogrin, J.
-Gräfe and P. D.  Hatton*.
+This repository contains the scripts, notebooks and experimental data to
+reproduce the figures, simulations and numerical data shown in **Resonant X-Ray
+Imaging of Confined Magnetic Skyrmion Tubes** by *M. T. Birch, D.
+Cortés-Ortuño,  L. A. Turnbull, M. N.  Wilson, F. Groß, N.  Träger, A.
+Laurenson, N. Bukin, S. H. Moody, M.  Weigand, G. Schütz, H. Popescu, R. Fan,
+P. Steadman, J. A. T. Verezhak, G.  Balakrishnan, J. C. Loudon, A. C.
+Twitchett-Harrison, O. Hovorka, H. Fangohr, F. Ogrin, J.  Gräfe and P. D.
+Hatton*.
 
+Both simulation and experimental data analysis are performed using Python with
+the Matplotlib, Jupyter, Scipy, Numpy and h5py libraries.
+
+Jupyter notebooks are provided to process the experimental data and reproduce
+the STXM, X-Ray Holography and LTEM images, which are shown as Figures 3, 4 and
+5 in the paper.
 
 Simulation scripts are based on the finite difference micromagnetic code OOMMF
 with the extension to simulate DMI for materials with symmetry class *T*:
@@ -21,11 +28,10 @@ The analysis of OOMMF's output files, which are in the `OMF` format, are
 processed using the [OOMMFPy](https://github.com/davidcortesortuno/oommfpy)
 library, which can calculate the topological charge in a 2D slice. 
 
-Data analysis is done with the Matplotlib, Jupyter, Scipy and Numpy libraries.
-
 Three-dimensional visualisations of the magnetic states are performed using
 Paraview. In order to get VTK files for visualisation, convert the `OMF` files
 into `.vtk` using the `OOMMFPy` library.
+
 
 ## Simulations
 
@@ -68,13 +74,16 @@ data, plot this data.
 
 ## Experimental data
 
-To reproduce Figures 3, 4 and 5 from the paper, which were obtained from the
-experimental data, notebooks are provided in corresponding subfolders in the
+To reproduce the Figures obtained from the experimental data in the paper,
+notebooks are provided in corresponding subfolders in the
 [experimental](experimental) directory. These subfolders contain data from both
-Holography and STXM images. The notebooks show how the experimental data is
-processed and compared with the results of the simulations. Data files obtained
+Holography and STXM images. Specifically, the notebooks in the `Figure_x`
+directories show how the STXM data is processed and compared with the results
+of the simulations and LTEM and X-Ray Holography images. Data files obtained
 from simulations are provided as text files and can be reproduced from the
-OOMMF simulations (see above).
+OOMMF simulations (see above). Additionally, the notebooks in the
+[experimental/holography_reconstruction](experimental/holography_reconstruction)
+contain the methods to process and generate the X-Ray Holography images.
 
 # Cite
 
