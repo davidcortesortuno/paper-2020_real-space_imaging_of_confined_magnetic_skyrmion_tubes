@@ -7,10 +7,11 @@
 This repository contains the scripts and notebooks to reproduce the simulations
 and numerical data shown in **Resonant X-Ray Imaging of Confined Magnetic
 Skyrmion Tubes** by *M. T. Birch, D. Cortés-Ortuño,  L. A. Turnbull, M. N.
-Wilson, F. Groß, N. Träger, A.  Laurenson, N. Bukin, S. H. Moody, M.  Weigand,
-H. Popescu, R. Fan, P. Steadman, J. A. T. Verezhak, G. Balakrishnan, J. C.
-Loudon, A. C. Twitchett-Harrison, O.  Horovka, H. Fangohr, F. Y. Ogrin, J.
-Gräfe, P. D.  Hatton*.
+Wilson, F. Groß, N.  Träger, A. Laurenson, N. Bukin, S. H. Moody, M. Weigand,
+G. Schütz, H. Popescu, R. Fan, P. Steadman, J. A. T. Verezhak, G. Balakrishnan,
+J. C. Loudon, A. C.  Twitchett-Harrison, O. Hovorka, H. Fangohr, F. Ogrin, J.
+Gräfe and P. D.  Hatton*.
+
 
 Simulation scripts are based on the finite difference micromagnetic code OOMMF
 with the extension to simulate DMI for materials with symmetry class *T*:
@@ -81,7 +82,7 @@ If you find this material useful please cite us (you might need the LaTeX's
 `url` package)
 
     @Misc{Cortes2019,
-      author       = {David Cort{\'e}s-Ortu{\~n}o and M. T. Birch and  and Ondrej Hovorka and Hans Fangohr and Peter Hatton},
+      author       = {M. T. Birch and D. Cort\'es-Ortu\~no and  L. A. Turnbull and M. N. Wilson and F. Gro\ss and N. Tr\"ager and A.~Laurenson and N. Bukin and S. H. Moody and M. Weigand and G. Sch\"utz and  H. Popescu and R. Fan and P.~Steadman and J.~A.~T.~Verezhak and G. Balakrishnan and J. C. Loudon and A.~C.~Twitchett-Harrison and O. Hovorka and H. Fangohr and F. Y. Ogrin  and J. Gr\"afe and P. D. Hatton},
       title        = {{Data set for: Resonant X-Ray Imaging of Confined Magnetic Skyrmion Tubes}},
       howpublished = {Zenodo \url{doi:10.5281/zenodo.3364609}. Github: \url{https://github.com/davidcortesortuno/paper-2019_resonant_xray_imaging_confined_magnetic_skyrmion_tubes}},
       year         = {2019},
