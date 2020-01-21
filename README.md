@@ -88,12 +88,20 @@ OOMMF simulations (see above). Additionally, the notebooks in the
 [experimental/holography_reconstruction](experimental/holography_reconstruction)
 contain the methods to process and generate the X-Ray Holography images.
 
+## Reproducible
+
+You can run the Jupyter notebooks online by pressing the Binder badge at the
+top of this README file. Launching the notebooks in this way creates a
+temporary copy of this repository, allowing it to be run and altered in real
+time in your web browser. Notebooks in the [experimental](experimental) folder
+can reproduce most of the Figures shown in the publication.
+
 # Cite
 
 If you find this material useful please cite us (you might need the LaTeX's
 `url` package)
 
-    @Misc{Cortes2019,
+    @Misc{Birch2020,
       author       = {M. T. Birch and D. Cort\'es-Ortu\~no and  L. A. Turnbull and M. N. Wilson and F. Gro\ss and N. Tr\"ager and A.~Laurenson and N. Bukin and S. H. Moody and M. Weigand and G. Sch\"utz and  H. Popescu and R. Fan and P.~Steadman and J.~A.~T.~Verezhak and G. Balakrishnan and J. C. Loudon and A.~C.~Twitchett-Harrison and O. Hovorka and H. Fangohr and F. Y. Ogrin  and J. Gr\"afe and P. D. Hatton},
       title        = {{Data set for: Real-space Imaging of Confined Magnetic Skyrmion Tubes}},
       howpublished = {Zenodo \url{doi:10.5281/zenodo.3364609}. Github: \url{https://github.com/davidcortesortuno/paper-2020_real-space_imaging_of_confined_magnetic_skyrmion_tubes}},
