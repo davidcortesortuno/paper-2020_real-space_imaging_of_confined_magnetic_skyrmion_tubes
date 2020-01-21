@@ -81,6 +81,6 @@ RUN chown -R ${NB_UID} ${HOME}
 USER ${NB_USER}
 
 # Set the working directory
-WORKDIR /home/${USER}/micromag/notebooks
+WORKDIR /home/${USER}/micromag
 
 # -----------------------------------------------------------------------------
