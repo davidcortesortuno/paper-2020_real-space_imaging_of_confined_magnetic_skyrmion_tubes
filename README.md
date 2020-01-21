@@ -20,8 +20,8 @@ Both simulation and experimental data analysis are performed using Python with
 the Matplotlib, Jupyter, Scipy, Numpy and h5py libraries [1,2,3,4,5].
 
 Jupyter notebooks are provided to process the experimental data and reproduce
-the STXM, X-Ray Holography and LTEM images, which are shown as Figures 3, 4 and
-5 in the paper.
+the STXM, X-Ray Holography and LTEM images, which are shown as Figures 2, 3, 4
+and 5 in the paper.
 
 Simulation scripts are based on the finite difference micromagnetic code OOMMF [6]
 with the extension to simulate DMI for materials with symmetry class *T*:
