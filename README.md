@@ -1,6 +1,9 @@
+# Data set for: Real-space Imaging of Confined Magnetic Skyrmion Tubes
+
 Run the notebooks online: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/davidcortesortuno/paper-2019_resonant_xray_imaging_confined_magnetic_skyrmion_tubes/master)
 
-# Data set for: Real-space Imaging of Confined Magnetic Skyrmion Tubes
+Zenodo:                   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3364609.svg)](https://doi.org/10.5281/zenodo.3364609)
+
 
 ![](figures/sk_tubes_vorticity_im.png)
 
@@ -14,19 +17,19 @@ Twitchett-Harrison, O. Hovorka, H. Fangohr, F. Ogrin, J.  Gräfe and P. D.
 Hatton*.
 
 Both simulation and experimental data analysis are performed using Python with
-the Matplotlib, Jupyter, Scipy, Numpy and h5py libraries.
+the Matplotlib, Jupyter, Scipy, Numpy and h5py libraries [1,2,3,4,5].
 
 Jupyter notebooks are provided to process the experimental data and reproduce
 the STXM, X-Ray Holography and LTEM images, which are shown as Figures 3, 4 and
 5 in the paper.
 
-Simulation scripts are based on the finite difference micromagnetic code OOMMF
+Simulation scripts are based on the finite difference micromagnetic code OOMMF [6]
 with the extension to simulate DMI for materials with symmetry class *T*:
 [oommf-extension-dmi-t](https://github.com/joommf/oommf-extension-dmi-t)
 
 The analysis of OOMMF's output files, which are in the `OMF` format, are
 processed using the [OOMMFPy](https://github.com/davidcortesortuno/oommfpy)
-library, which can calculate the topological charge in a 2D slice. 
+library [7], which can calculate the topological charge in a 2D slice. 
 
 Three-dimensional visualisations of the magnetic states are performed using
 Paraview. In order to get VTK files for visualisation, convert the `OMF` files
@@ -101,23 +104,27 @@ If you find this material useful please cite us (you might need the LaTeX's
 
 # References
 
-[1] *OOMMF User's Guide, Version 1.0*. M.J. Donahue and D.G. Porter.
-Interagency Report NISTIR 6376, National Institute of Standards and Technology,
-Gaithersburg, MD (Sept 1999) 
-
-[2] *Matplotlib: A 2D Graphics Environment*. J. D. Hunter. Computing in Science
+[1] *Matplotlib: A 2D Graphics Environment*. J. D. Hunter. Computing in Science
 & Engineering, vol. 9, no. 3, pp. 90-95, 2007.
 
-[3] *A guide to NumPy*. Travis E, Oliphant. USA: Trelgol Publishing, (2006).
-
-[4] *SciPy: Open Source Scientific Tools for Python, 2001-*. Jones E, Oliphant
-E, Peterson P, et al., http://www.scipy.org/ [Online; accessed 2019-08-09].
-
-[5] *IPython: A System for Interactive Scientific Computing*. Fernando Pérez
+[2] *IPython: A System for Interactive Scientific Computing*. Fernando Pérez
 and Brian E. Granger. Computing in Science & Engineering, 9, 21-29 (2007),
 DOI:10.1109/MCSE.2007.53 (publisher link)
 
-[6] *Python and HDF5*. Collette, A. O’Reilly Media (2013).
+[3] *SciPy: Open Source Scientific Tools for Python, 2001-*. Jones E, Oliphant
+E, Peterson P, et al., http://www.scipy.org/ [Online; accessed 2019-08-09].
+
+[4] *A guide to NumPy*. Travis E, Oliphant. USA: Trelgol Publishing, (2006).
+
+[5] *Python and HDF5*. Collette, A. O’Reilly Media (2013).
+
+[6] *OOMMF User's Guide, Version 1.0*. M.J. Donahue and D.G. Porter.
+Interagency Report NISTIR 6376, National Institute of Standards and Technology,
+Gaithersburg, MD (Sept 1999) 
 
 [7] *OOMMFPy*. D. Cortés-Ortuño. Zenodo doi:10.5281/zenodo.2611194. Github:
-https://github.com/davidcortesortuno/oommfpy, (2019)
+https://github.com/davidcortesortuno/oommfpy (2019)
+
+[8] *Binder 2.0 - Reproducible, Interactive, Sharable Environments for Science
+at Scale*. Jupyter et al. Proceedings of the 17th Python in Science Conference.
+doi://10.25080/Majora-4af1f417-011 (2018)
