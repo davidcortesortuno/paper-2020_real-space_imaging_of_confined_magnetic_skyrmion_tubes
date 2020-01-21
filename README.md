@@ -2,7 +2,7 @@
 
 Run the notebooks online: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/davidcortesortuno/paper-2019_resonant_xray_imaging_confined_magnetic_skyrmion_tubes/master)
 
-Zenodo:                   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3364609.svg)](https://doi.org/10.5281/zenodo.3364609)
+Zenodo:                   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3618835.svg)](https://doi.org/10.5281/zenodo.3618835)
 
 
 ![](figures/sk_tubes_vorticity_im.png)
