@@ -104,10 +104,10 @@ If you find this material useful please cite us (you might need the LaTeX's
     @Misc{Birch2020,
       author       = {M. T. Birch and D. Cort\'es-Ortu\~no and  L. A. Turnbull and M. N. Wilson and F. Gro\ss and N. Tr\"ager and A.~Laurenson and N. Bukin and S. H. Moody and M. Weigand and G. Sch\"utz and  H. Popescu and R. Fan and P.~Steadman and J.~A.~T.~Verezhak and G. Balakrishnan and J. C. Loudon and A.~C.~Twitchett-Harrison and O. Hovorka and H. Fangohr and F. Y. Ogrin  and J. Gr\"afe and P. D. Hatton},
       title        = {{Data set for: Real-space Imaging of Confined Magnetic Skyrmion Tubes}},
-      howpublished = {Zenodo \url{doi:10.5281/zenodo.3364609}. Github: \url{https://github.com/davidcortesortuno/paper-2020_real-space_imaging_of_confined_magnetic_skyrmion_tubes}},
+      howpublished = {Zenodo \url{doi:10.5281/zenodo.3618835}. Github: \url{https://github.com/davidcortesortuno/paper-2020_real-space_imaging_of_confined_magnetic_skyrmion_tubes}},
       year         = {2020},
-      doi          = {10.5281/zenodo.3364609},
-      url          = {https://doi.org/10.5281/zenodo.3364609},
+      doi          = {10.5281/zenodo.3618835},
+      url          = {https://doi.org/10.5281/zenodo.3618835},
     }
 
 # References
