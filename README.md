@@ -1,11 +1,11 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/davidcortesortuno/paper-2019_resonant_xray_imaging_confined_magnetic_skyrmion_tubes/master)
+Run the notebooks online: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/davidcortesortuno/paper-2019_resonant_xray_imaging_confined_magnetic_skyrmion_tubes/master)
 
-# Data set for: Resonant X-Ray Imaging of Confined Magnetic Skyrmion Tubes
+# Data set for: Real-space Imaging of Confined Magnetic Skyrmion Tubes
 
 ![](figures/sk_tubes_vorticity_im.png)
 
 This repository contains the scripts, notebooks and experimental data to
-reproduce the figures, simulations and numerical data shown in **Resonant X-Ray
+reproduce the figures, simulations and numerical data shown in **Real-space
 Imaging of Confined Magnetic Skyrmion Tubes** by *M. T. Birch, D.
 Cortés-Ortuño,  L. A. Turnbull, M. N.  Wilson, F. Groß, N.  Träger, A.
 Laurenson, N. Bukin, S. H. Moody, M.  Weigand, G. Schütz, H. Popescu, R. Fan,
@@ -92,9 +92,9 @@ If you find this material useful please cite us (you might need the LaTeX's
 
     @Misc{Cortes2019,
       author       = {M. T. Birch and D. Cort\'es-Ortu\~no and  L. A. Turnbull and M. N. Wilson and F. Gro\ss and N. Tr\"ager and A.~Laurenson and N. Bukin and S. H. Moody and M. Weigand and G. Sch\"utz and  H. Popescu and R. Fan and P.~Steadman and J.~A.~T.~Verezhak and G. Balakrishnan and J. C. Loudon and A.~C.~Twitchett-Harrison and O. Hovorka and H. Fangohr and F. Y. Ogrin  and J. Gr\"afe and P. D. Hatton},
-      title        = {{Data set for: Resonant X-Ray Imaging of Confined Magnetic Skyrmion Tubes}},
-      howpublished = {Zenodo \url{doi:10.5281/zenodo.3364609}. Github: \url{https://github.com/davidcortesortuno/paper-2019_resonant_xray_imaging_confined_magnetic_skyrmion_tubes}},
-      year         = {2019},
+      title        = {{Data set for: Real-space Imaging of Confined Magnetic Skyrmion Tubes}},
+      howpublished = {Zenodo \url{doi:10.5281/zenodo.3364609}. Github: \url{https://github.com/davidcortesortuno/paper-2020_real-space_imaging_of_confined_magnetic_skyrmion_tubes}},
+      year         = {2020},
       doi          = {10.5281/zenodo.3364609},
       url          = {https://doi.org/10.5281/zenodo.3364609},
     }
@@ -117,5 +117,7 @@ E, Peterson P, et al., http://www.scipy.org/ [Online; accessed 2019-08-09].
 and Brian E. Granger. Computing in Science & Engineering, 9, 21-29 (2007),
 DOI:10.1109/MCSE.2007.53 (publisher link)
 
-[6] *OOMMFPy*. D. Cortés-Ortuño. Zenodo doi:10.5281/zenodo.2611194. Github:
+[6] *Python and HDF5*. Collette, A. O’Reilly Media (2013).
+
+[7] *OOMMFPy*. D. Cortés-Ortuño. Zenodo doi:10.5281/zenodo.2611194. Github:
 https://github.com/davidcortesortuno/oommfpy, (2019)
